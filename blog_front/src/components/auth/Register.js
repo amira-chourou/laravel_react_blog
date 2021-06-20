@@ -45,6 +45,7 @@ export default function Register() {
          //Success
           localStorage.setItem("token", res.data.user.api_token); // save token in localStorage
           localStorage.setItem("id",res.data.user.id);
+          localStorage.setItem("username",res.data.user.name);
           history.replace("/"); // redirect to homepage
           window.location.href='/';
         })
