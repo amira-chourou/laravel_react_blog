@@ -9,7 +9,7 @@ Simple blog application using react js with laravel api
 2. Go to project root folder. Open git bash or terminal and run  composer update
 3. Copy a fresh .env file from laravel github    
 4. Update .env file by adding database information like DB_HOST.
-5. Create an empty database with the same name in .env file
+5. Create a new database with the same name in .env file
 6. Run php artisan migrate
 
 ```
