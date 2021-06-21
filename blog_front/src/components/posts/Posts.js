@@ -53,7 +53,7 @@ export default function Posts(props) {
         const newPosts = [...posts];
         newPosts.splice(index, 1);
         setPosts(newPosts);
-        setPosts([res.data.data, ...posts]);
+        setPosts([res.data.data, ...newPosts]);
       })
       .catch((error) => {
         console.log(" errors : ", error); // if error return error message
